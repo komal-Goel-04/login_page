@@ -73,6 +73,7 @@ function App() {
           <img src={MyGif} alt="my-gif"></img>
         </div>
       <div className="content">
+      {Object.keys(formErrors).length === 0 && isSubmit ? (<div><p>Signed up successfully!</p></div>) : ('')}
         <div><h1>Create your account </h1></div>
         <div className="username">
           <TextField 
