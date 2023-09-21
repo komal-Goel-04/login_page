@@ -51,7 +51,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
-    padding-left: 0px;
+    padding-left: 0px;  
     border: none;
   }
   
@@ -60,17 +60,20 @@
     /* padding-left: 50px;
     padding-top: 0px;
     padding-bottom: 0; */
+    padding-left: 20px;
+    padding-bottom: 0; 
     height: 300px;
     width: 300px;
   } 
   .Image{
-    padding-left: 35px;
     padding-top: 0px;
     padding-bottom: 0;
   }
   .container .content{
+    width: 90%;
+    margin: auto;
     padding-top: 0;
-    padding-left:0px;
+    padding-left: 0px; 
   }
 }
 
