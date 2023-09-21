@@ -7,11 +7,72 @@
   pointer-events: none;
 }
 
+.signingup span{
+  font: bold;
+  color: rgb(19, 19, 231);
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  padding-left: 90px;
+  border: #92E3A9 solid; 
+  border-radius: 10px;
+  margin-top: 20px;
+  margin:40px;
+  /* #263238 */
+}
+.container .content{
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  /* background: #92E3A9; */
+}
+.container .content h1{
+  color: #263238;
+}
+.container .content Button{
+  color: #263238;
+  background: #92E3A9;
+  padding-bottom: 5px;
+}
+.content .error{
+  color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@media only screen and (max-width: 600px){
+  
+  .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    padding-left: 0px;
+    border: none;
+  }
+  
+  .Image img{
+    /* justify-content: center; */
+    /* padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0; */
+    height: 300px;
+    width: 300px;
+  } 
+  .Image{
+    padding-left: 45px;
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  .container .content{
+    padding-top: 0;
+  }
+}
+
 
 .App-header {
   background-color: #282c34;
